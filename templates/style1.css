@@ -1,0 +1,55 @@
+head{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+}
+
+div{
+    background-color: white;
+    font-family: 'Sora', sans-serif;
+    font-size: 60;
+    font: 300;
+    display: block;
+    border-radius: 5px;
+}
+
+body{
+    background: linear-gradient(-30deg, #09ffee 40%, #0099ff 80%) ;
+}
+form{
+    align-self: center;
+}
+h1, h2, h3{
+    font-family: 'Sora', sans-serif;
+    color: #ffeeff;
+}
+
+input{
+    height: 50;
+    border-radius: 5px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+  }
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }

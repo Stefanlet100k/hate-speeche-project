@@ -1,0 +1,134 @@
+head{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: black;
+}
+
+.pageHeader{
+    background-color: white;
+    font-family: 'Sora', sans-serif;
+    font-size: 60;
+    font: 300;
+    display: block;
+    border-radius: 5px;
+    width: 100%;
+}
+
+body{
+    background: linear-gradient(-30deg, #09ffee 40%, #0099ff 80%) ;
+}
+
+form {
+    align-self: center;
+}
+h1, h2, h3{
+    font-family: 'Sora', sans-serif;
+    color: #ffeeff;
+}
+
+.textField{
+    height: 80;
+    width: 500;
+    border-radius: 5px;
+}
+
+
+input {
+    height: 80;
+    border-radius: 5px;
+    font-family: 'Sora', sans-serif;
+    vertical-align: top;
+}
+
+
+ul {
+    font-family: 'Sora', sans-serif;
+    list-style-type: none;
+    margin: 0 ;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+}
+
+li {
+    float: left
+}
+
+.navbar {
+    display: block;
+    padding: 8px;
+    background-color: #444444;
+    border-radius: 3px;
+  }
+
+li .navbar {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+.output {
+    font-family: 'Sora', sans-serif;
+}
+
+/*Three columns side by side */
+.column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.row{
+    padding: 5px;
+}
+
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
+.container {
+  padding: 0 16px;
+}
+
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  font-size: 18;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 75%;
+    max-height: 60%;
+    height: 250;
+    width: auto;
+}
+
+.info {
+    font-family: 'Sora', sans-serif;
+    color: grey;
+}
+
+.links {
+    background-color: transparent;
+}

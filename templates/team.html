@@ -1,0 +1,97 @@
+<html>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+    </style>
+  
+    <head>
+        <link rel='stylesheet' href="{{ url_for('static', filename='css/style1.css')}}"/>
+        <!--<link rel='stylesheet' href='style1.css'/>-->
+        <title>NoHate</title>
+        <div class="pageHeader">Hate speech detector</div>
+        <Ul>
+        <li><a class="navbar" href='http://localhost:5000/'>Home</a></li>  
+        <li><a class="navbar" href=''>Aboute</a></li>
+        <li><a class="navbar" href='https://en.wikipedia.org/wiki/Hate_speech#:~:text=Hate%20speech%20is%20defined%20by,sex%2C%20or%20sexual%20orientation%22.'>What is hate speech?</a></li>
+        <li><a class="navbar" href="http://localhost:5000/team">Team</a></li>
+
+        </Ul>
+        
+    </head>
+<body>
+    <p>
+        <h1>Our team:</h1>
+    </p>
+    
+
+
+    <div class="row">
+
+        <div class="column">
+            
+            <div class="card">
+                <img src="{{ url_for('static', filename = 'photos/maria.jpg') }}" alt="Maria">
+
+                <div class="container">
+                    <h2>Maria Fabijan</h2>
+                    <p class="title">Team Leader✨</p>
+                    <p class="info">mail: </p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="column">
+            
+            <div class="card">
+                <img src="{{ url_for('static', filename = 'photos/pawel_w.jpg') }}" alt="Pawel">
+
+                <div class="container">
+                    <h2>Paweł Węgrzyn</h2>
+                    <p class="title">Machine Learning Engineer🎢</p>
+                    <p class="info">paweł@mail.com</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="column">
+            
+            <div class="card">
+                <img src="{{ url_for('static', filename = 'photos/stefciu.jpg') }}" alt="Stefan">
+
+                <div class="container">
+                    <h2>Stefan Borek</h2>
+                    <p class="title">Full Stack Developer💯</p>
+                    <p class="info">sztefan.borek@gmail.com</p>
+                    <p class="info"><a class=".links" href="https://www.linkedin.com/in/stefan-borek-662510236/">linkedin</a></p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="row">
+
+        <div class="column">
+            
+            <div class="card">
+                <img src="{{ url_for('static', filename = 'photos/Krzysztof-Brzostowski.jpg') }}" alt="Angel">
+
+                <div class="container">
+                    <h2>dr hab. inż. Krzysztof Brzostowski</h2>
+                    <p class="title">Team Supervisor🦄</p>
+                    <p class="info">krzysztof.brzostowski@pwr.edu.pl</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        
+    </div>
+
+</body>
+</html>
